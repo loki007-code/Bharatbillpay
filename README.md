@@ -4,24 +4,24 @@
 Here is the completed responsive code for the given figma design... features and installation steps will be given below
 
 ## Table of Contents
- - [Installation] (#installation)
- - [Features] (#features)
- - [Technologies] (#technologies)
- - [Screenshots] (#screenshots)
+ - Installation
+ - Features 
+ - Technologies 
+ - Screenshots
 
 ## Installation
-Clone the repository
+- Clone the repository
 https://github.com/loki007-code/Bharatbillpay.git
 
 ## Features
-Resposive design that compacts for all devices
-95% of bootstrap and 5% CSS is used
-The projects has seperate code for header, dashboard, navbar and footer
+- Resposive design that compacts for all devices
+- 95% of bootstrap and 5% CSS is used
+- The projects has seperate code for header, dashboard, navbar and footer
 
 ## Technologoies
-HTML 5
-CSS 3
-Bootstrap v5.3.3
+- HTML 5
+- CSS 3
+- Bootstrap v5.3.3
 
 ## Screenshots
 <img src="assets\Deskoutput1.png" alt="Project Screenshot" width="600">
