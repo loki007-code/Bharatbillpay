@@ -1,0 +1,78 @@
+* {
+    font-family: Roboto;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roundedWhite {
+    height: 50px;
+    width: 50px;
+    border-radius: 50% 50%;
+    background: #ffff;
+}
+
+body {
+    background-color: #f3f6ff;
+}
+
+.header {
+    height: 100px;
+    background: linear-gradient(180deg, #0336E9 0%, #1837A5 100%);
+
+}
+
+.c-container {
+    height: 120px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.dbfont {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.navfont {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footerfont {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.col>ul>li {
+    color: #ABA4A4;
+}
+
+.card {
+    border: none !important;
+}
+
+
+.carousel-indicators button {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    transition: background-color 0.3s;
+}
+
+
+.carousel-indicators .active {
+    background-color: #007bff;
+}
+
+.carousel-indicators button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
