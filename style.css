@@ -1,5 +1,7 @@
-* {
-    font-family: Roboto;
+*,
+*::before,
+*::after {
+    font-family: Roboto, sans-serif; /* Fallback font */
     font-size: 14px;
     margin: 0;
     padding: 0;
@@ -10,7 +12,7 @@
     height: 50px;
     width: 50px;
     border-radius: 50% 50%;
-    background: #ffff;
+    background-color: #ffffff;
 }
 
 body {
@@ -20,7 +22,9 @@ body {
 .header {
     height: 100px;
     background: linear-gradient(180deg, #0336E9 0%, #1837A5 100%);
-
+    background: -webkit-linear-gradient(180deg, #0336E9 0%, #1837A5 100%);
+    background: -moz-linear-gradient(180deg, #0336E9 0%, #1837A5 100%);
+    background: -o-linear-gradient(180deg, #0336E9 0%, #1837A5 100%);
 }
 
 .c-container {
@@ -32,20 +36,19 @@ li {
 }
 
 .dbfont {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     font-weight: 500;
-    line-height: 20px;
 }
 
 .navfont {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 15px;
     font-weight: 500;
 }
 
 .footerfont {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -65,7 +68,7 @@ li {
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
 
@@ -74,5 +77,5 @@ li {
 }
 
 .carousel-indicators button:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #ffffff;
 }
